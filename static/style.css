@@ -1,0 +1,49 @@
+body {
+    /* Professional office background */
+    background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1920');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Glassmorphism Effect */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 25px;
+}
+
+.navbar-custom {
+    background: rgba(15, 23, 42, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+.stat-box {
+    background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+}
+
+.ticket-card {
+    background: white;
+    border-left: 5px solid #4f46e5;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.btn-action {
+    background: #0f172a;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+.btn-action:hover { background: #1e293b; transform: translateY(-2px); color: white; }
